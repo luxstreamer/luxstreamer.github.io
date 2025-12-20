@@ -1,17 +1,17 @@
 theme                  : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "en-GB"
-title                    : "Lux Awesome"
+title                    : "Luxnation"
 title_separator          : "-"
 subtitle                 : "lucathar.site" # site tagline that appears below site title in masthead
 name                     : "Thesmos Prime"
 description              : "Lux-Awesomes Page."
 url                      : "https://lucathar.site" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-# baseurl                  : ""
+baseurl                  : ""
 repository               : "luxstreamer/luxstream.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Lux-Awesomes" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Lux-Nation" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
@@ -74,7 +74,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "drthesmos"
+  username               : "prothesmos"
 facebook:
   username               :
   app_id                 :
@@ -99,7 +99,7 @@ analytics:
 author:
   name             : "Lucathar"
   avatar           : "assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Founder of Lux-Awesomes."
+  bio              : "Founder of Luxnation."
   location         : "Earth"
   email            :
   links:
@@ -127,7 +127,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/drthesmos"
+      url: "https://twitter.com/prothesmos"
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   url:
@@ -143,7 +143,7 @@ footer:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://mstdn.plus/@drthesmos"
-  since: "2025"
+  since: "2020"
 
 
 # Reading Files
