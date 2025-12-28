@@ -3,15 +3,15 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-GB"
 title                    : "Luxnation"
 title_separator          : "-"
-subtitle                 : "lucathar.site" # site tagline that appears below site title in masthead
+subtitle                 : "www.lucathar.site" # site tagline that appears below site title in masthead
 name                     : "Thesmos Prime"
-description              : "Lux-Awesomes Page."
+description              : "One Nation fron G.H.A.L-Nations Club."
 url                      : "https://lucathar.site" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""
 repository               : "luxstreamer/luxstream.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Lux-Nation" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Luxnation" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
@@ -84,7 +84,7 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Organization" # Person or Organization (defaults to Person)
-  name                   : "Book of MTLG" # If the user or organization name differs from the site's name
+  name                   : "Book of G.H.A.L" # If the user or organization name differs from the site's name
   links: "https://luxbook.github.io" # An array of links to social media profiles
 
 # Analytics
@@ -101,7 +101,7 @@ author:
   avatar           : "assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Founder of Luxnation."
   location         : "Earth"
-  email            :
+  email            : "lucathar@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -117,7 +117,7 @@ author:
     #   url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/organizations/luxstreamer"
+      url: "https://github.com/luxstreamer/luxstreamer.github.io"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
@@ -133,7 +133,7 @@ footer:
     #   url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/organizations/luxstreamer"
+      url: "https://github.com/luxstreamer/luxstreamer.github.io"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
