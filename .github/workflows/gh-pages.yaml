@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -37,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: _site/
 
   deploy:
     environment:
@@ -50,7 +50,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-           github-token: ${{ env.secrets.GITHUB_TOKEN }}
+           github-token: ${{ secrets.GITHUB_TOKEN }}
            publish_branch: gh-pages
-           publish_dir: ./_site
+           publish_dir: _site/
            cname: lucathar.site
