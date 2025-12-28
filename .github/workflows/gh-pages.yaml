@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: deploy
   cancel-in-progress: true
 
 jobs:
@@ -50,7 +50,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-           github-token: ${{ secrets.GITHUB_TOKEN }}
-           publish_branch: gh-pages
-           publish_dir: _site/
+           token: ${{ secrets.GITHUB_TOKEN }}
+           target_branch: gh-pages
+           target_dir: _site/
            cname: lucathar.site
