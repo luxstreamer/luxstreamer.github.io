@@ -1,22 +1,21 @@
-theme                  : "minimal-mistakes-jekyll"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-locale                   : "en-GB"
-title                    : "Luxnation"
-title_separator          : "-"
-subtitle                 : "www.lucathar.site" # site tagline that appears below site title in masthead
-name                     : "Thesmos Prime"
-description              : "One Nation fron G.H.A.L-Nations Club."
-url                      : "https://luxstreamer.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/"
-repository               : "luxstreamer/luxstream.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Luxnation" # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
-words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
-copyright                : "lucathar.site"
-copyright_url            : "https://www.lucathar.site"
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+locale: "en-GB"
+title: "Luxnation"
+title_separator: "-"
+subtitle: "www.lucathar.site" # site tagline that appears below site title in masthead
+name: "Thesmos Prime"
+description: "One Nation fron G.H.A.L-Nations Club."
+url: "https://luxstreamer.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "/"
+repository: "luxstreamer/luxstream.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+logo: "assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: "Luxnation" # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs: # true, false (default)
+words_per_minute: 200
+enable_copy_code_button: # true, false (default)
+copyright: "Lucathar.Site"
+copyright_url: "https://www.lucathar.site"
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -50,7 +49,7 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : "feed.xml" # blank (default) uses feed.xml
+  path: "feed.xml" # blank (default) uses feed.xml
   hide                   : # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
@@ -74,7 +73,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "prothesmos"
+  username: "prothesmos"
 facebook:
   username               :
   app_id                 :
@@ -83,8 +82,8 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : "Organization" # Person or Organization (defaults to Person)
-  name                   : "Book of G.H.A.L" # If the user or organization name differs from the site's name
+  type: "Organization" # Person or Organization (defaults to Person)
+  name: "Book of G.H.A.L" # If the user or organization name differs from the site's name
   links: "https://luxbook.github.io" # An array of links to social media profiles
 
 # Analytics
@@ -97,11 +96,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lucathar"
-  avatar           : "assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Founder of Luxnation."
-  location         : "Earth"
-  email            : "lucathar@gmail.com"
+  name: "Lucathar"
+  avatar: "assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "Founder of Luxnation."
+  location: "Earth"
+  email: "lucathar@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -302,6 +301,18 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
     values:
       layout: single
       author_profile: true
