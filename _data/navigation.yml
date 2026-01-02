@@ -3,9 +3,9 @@ main:
     url: /posts/
   - title: "Categories"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Pages"
+    url: /pages/
   - title: "About"
     url: /about/
-  - title: "Terms and Conditions"
-    url: /terms-and-conditions
+  - title: "Projects"
+    url: /projects/
