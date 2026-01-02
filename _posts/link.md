@@ -1,11 +1,8 @@
 ---
-title: "Post: Link"
+title: "How to Link"
 categories:
   - Blog
-tags:
-  - link
-  - Post Formats
-link: https://github.com
+link: https://github.com/luxstreamer
 ---
 
 This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
